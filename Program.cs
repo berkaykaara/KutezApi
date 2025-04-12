@@ -1,9 +1,9 @@
-using KutezApi.Model;
+ï»¿using KutezApi.Model;
 using KutezApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// GoldApi yapýlandýrmasýný baðla
+// GoldApi yapÄ±landÄ±rmasÄ±nÄ± baÄŸla
 builder.Services.Configure<GoldApiSettings>(builder.Configuration.GetSection("GoldApi"));
 
 builder.Services.AddControllers();
@@ -14,8 +14,8 @@ builder.Services.AddScoped<GoldPriceService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var port = Environment.GetEnvironmentVariable("PORT");
 
+var port = Environment.GetEnvironmentVariable("PORT");
 if (port != null)
 {
     builder.WebHost.UseUrls("http://0.0.0.0:" + port);
@@ -23,12 +23,9 @@ if (port != null)
 
 var app = builder.Build();
 
-// Geliþtirme ortamýnda Swagger UI'ý etkinleþtir
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// âœ… Swagger'Ä± her ortamda etkinleÅŸtir
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
