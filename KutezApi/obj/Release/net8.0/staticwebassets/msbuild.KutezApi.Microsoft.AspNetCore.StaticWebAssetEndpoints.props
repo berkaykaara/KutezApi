@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/KutezApi/data/products.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\products.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OTrJ34lHvD49SjeNHX9K1RkoZWMI5UmfxmXqmbHQvWE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3430"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022OTrJ34lHvD49SjeNHX9K1RkoZWMI5UmfxmXqmbHQvWE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 14:51:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KutezApi/data/products.t720r9bz17.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\products.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t720r9bz17"},{"Name":"integrity","Value":"sha256-OTrJ34lHvD49SjeNHX9K1RkoZWMI5UmfxmXqmbHQvWE="},{"Name":"label","Value":"_content/KutezApi/data/products.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3430"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022OTrJ34lHvD49SjeNHX9K1RkoZWMI5UmfxmXqmbHQvWE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 14:51:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
