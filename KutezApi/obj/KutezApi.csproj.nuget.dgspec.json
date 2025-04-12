@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\KutezApi.csproj": {}
+    "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\KutezApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\KutezApi.csproj": {
+    "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\KutezApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\KutezApi.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\KutezApi.csproj",
         "projectName": "KutezApi",
-        "projectPath": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\KutezApi.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\KutezApi.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

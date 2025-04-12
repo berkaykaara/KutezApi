@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8JNr8kkMlG5GSV6xdpzDclJnE3YFejjitqU3pYcBVBI=",
+  "Hash": "kYCfhh/hDFPPFKSyEXumtw5jd+YwT4qKgMb18mJGptQ=",
   "Source": "KutezApi",
   "BasePath": "_content/KutezApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "KutezApi\\wwwroot",
       "Source": "KutezApi",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\wwwroot\\",
       "BasePath": "_content/KutezApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\wwwroot\\data\\products.json",
+      "Identity": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\wwwroot\\data\\products.json",
       "SourceId": "KutezApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\wwwroot\\",
       "BasePath": "_content/KutezApi",
       "RelativePath": "data/products#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -41,7 +41,7 @@
   "Endpoints": [
     {
       "Route": "data/products.json",
-      "AssetFile": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\wwwroot\\data\\products.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\wwwroot\\data\\products.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -78,7 +78,7 @@
     },
     {
       "Route": "data/products.t720r9bz17.json",
-      "AssetFile": "C:\\Users\\PC\\Desktop\\kutez\\KutezApi\\wwwroot\\data\\products.json",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\KutezApi\\KutezApi\\wwwroot\\data\\products.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
