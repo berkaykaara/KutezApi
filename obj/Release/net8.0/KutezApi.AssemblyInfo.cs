@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KutezApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90dcc39268457e98c32a7a82996bc3ad3635d1d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8337955d5c655a5d0eca966876cd1a218359e24")]
 [assembly: System.Reflection.AssemblyProductAttribute("KutezApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KutezApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
